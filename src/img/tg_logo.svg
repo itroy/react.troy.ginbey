@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="26px" viewBox="0 0 44 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>tg_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD-Widescreen" transform="translate(-54.000000, -47.000000)">
+            <g id="Home-UI-Grid" transform="translate(20.000000, 20.000000)">
+                <g id="Navbar">
+                    <g id="tg_logo" transform="translate(35.000000, 28.000000)">
+                        <polygon id="Polygon" stroke="#979797" points="31.5 0 42 6 42 18 31.5 24 21 18 21 6"></polygon>
+                        <polygon id="Polygon-Copy" stroke="#61D305" points="10.5 0 21 6 21 18 10.5 24 3.95239397e-14 18 3.26405569e-14 6"></polygon>
+                        <text id="T" font-family="OpenSans-Semibold, Open Sans" font-size="13" font-weight="500" fill="#61D305">
+                            <tspan x="7.3215332" y="17">T</tspan>
+                        </text>
+                        <text id="G" font-family="OpenSans-Semibold, Open Sans" font-size="13" font-weight="500" fill="#939393">
+                            <tspan x="27.2805176" y="17">G</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
