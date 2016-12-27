@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD-Widescreen" transform="translate(-1117.000000, -56.000000)" fill="#61D305">
+            <g id="Home-UI-Grid" transform="translate(20.000000, 20.000000)">
+                <g id="Navbar">
+                    <g id="Download-CV" transform="translate(927.000000, 17.000000)">
+                        <path d="M172.424152,19.3118856 C172.033729,18.921462 171.400362,18.921462 171.009939,19.3118856 C170.618943,19.7028817 170.61938,20.3355404 171.009939,20.7260992 L176.048074,25.764235 C176.438633,26.1547938 177.071292,26.155231 177.462288,25.764235 L182.500424,20.7260992 C182.890847,20.3356756 182.890847,19.7023092 182.500424,19.3118856 C182.11,18.921462 181.476634,18.921462 181.08621,19.3118856 L176.755181,23.6429147 L172.424152,19.3118856 Z" id="ico_down"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

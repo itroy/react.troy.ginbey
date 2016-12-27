@@ -8,6 +8,8 @@
    selectors. Essentially, a base style says that wherever this
    element is on the page, it should look like this.
 */
+@import 'font-awesome.css';
+
 html {
   font-size: 13px;
 }
@@ -39,6 +41,20 @@ body {
    They are the callouts, the sidebar sections, the product
    lists and so on.
 */
+/*.btn_special {
+  display: flex;
+  align-items: center;
+}*/
+
+/*.download::before, .download::after {
+  content:'';
+  display: inline-block;
+}*/
+/*.download::after {
+  background-image: url('../img/ico_down.svg');
+  width: 13px;
+  height: 8px;
+}*/
 
 /* State */
 /* State rules are ways to describe how our modules or layouts
@@ -63,6 +79,8 @@ body {
 
 }
 .navbar ul {
+  display: flex;
+  align-items: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -88,11 +106,48 @@ body {
 
 }
 .navbar li a.active {
-  color: #61D305;
+  /*color: #fff;*/
   background-color: #181219;
   border-radius: 30px;
 }
 .tg_logo {
   margin-left: 35px;
   margin-right: 20px;
+}
+.btn {
+  border-radius: 35px;
+  padding: 14px 22px !important;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+
+}
+[class^="btn-"] {
+    /*font-family: 'Roboto', sans-serif;*/
+
+  color: #000;
+  /* Prevent highlight colour when element is tapped */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  /* Smooth fonts */
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.btn-download {
+  background-color: #61D305;
+  color: #4A3A4D !important;
+  /*width: 202px;*/
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  /*padding-right: 14px !important;*/
+
+}
+.btn-download::after {
+  font-family: 'FontAwesome';
+  content: '\f019';
+  margin-left: 12px;
+}
+.btn-download:hover {
+  background-color: #2CDAEC !important;
 }

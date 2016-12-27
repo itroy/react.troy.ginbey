@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="48px" viewBox="0 0 80 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>img_keyboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD-Widescreen" transform="translate(-140.000000, -626.000000)" fill="#FFFFFF">
+            <g id="Home-UI-Grid" transform="translate(20.000000, 20.000000)">
+                <g id="3" transform="translate(0.000000, 480.000000)">
+                    <g id="Img">
+                        <g id="img_keyboard" transform="translate(120.000000, 126.000000)">
+                            <path d="M3.7162633,44.5914538 L76.2837367,44.5914538 L76.2837367,3.40854622 L3.7162633,3.40854622 L3.7162633,44.5914538 Z M1.85813165,48 C0.832442979,48 0,47.2398942 0,46.2957269 L0,1.70427311 C0,0.763514353 0.832442979,0 1.85813165,0 L78.1418684,0 C79.1712733,0 80,0.763514353 80,1.70427311 L80,46.2957269 C80,47.2398942 79.1712733,48 78.1418684,48 L1.85813165,48 Z" id="Fill-370"></path>
+                            <polygon id="Fill-374" points="12 19 19 19 19 12 12 12"></polygon>
+                            <polygon id="Fill-375" points="25 19 32 19 32 12 25 12"></polygon>
+                            <polygon id="Fill-376" points="37 19 44 19 44 12 37 12"></polygon>
+                            <polygon id="Fill-377" points="50 19 57 19 57 12 50 12"></polygon>
+                            <polygon id="Fill-378" points="62 19 69 19 69 12 62 12"></polygon>
+                            <polygon id="Fill-379" points="11 29 18 29 18 22 11 22"></polygon>
+                            <polygon id="Fill-379-Copy" points="11 38 69 38 69 34 11 34"></polygon>
+                            <polygon id="Fill-380" points="25 30 32 30 32 23 25 23"></polygon>
+                            <polygon id="Fill-381" points="37 30 44 30 44 23 37 23"></polygon>
+                            <polygon id="Fill-382" points="50 30 57 30 57 23 50 23"></polygon>
+                            <polygon id="Fill-383" points="62 30 69 30 69 23 62 23"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
