@@ -1,17 +1,17 @@
 import React from 'react';
-import '../css/modules/ContentBoxWidthHalf.css';
-import keyboard from '../img/img_keyboard.svg';
+import '../css/modules/contentBoxWidthHalf.css';
+// import keyboard from '../img/img_keyboard.svg';
 
-const ContentBoxWidthHalf = () => (
-  <div>
-    <div className="blogItem purple">
+const ContentBoxWidthHalf = ({colour}) => (
+  // <div>
+    <div className={`blogItem  ${colour}`}>
       <hgroup>
         <h1>IPHONE 6S</h1>
         <h2>3D Touch. 12MP photos. 4K video. One powerful phone.</h2>
       </hgroup>
       <a href="#" className="btn btn-link">Read Now</a>
     </div>
-    <div className="blogItem green centred">
+    /* <div className="blogItem green centred">
       <hgroup>
         <h1>IPHONE 6S</h1>
         <h2>How to Use Rotary Evaporator in Chemical Labs</h2>
@@ -25,26 +25,11 @@ const ContentBoxWidthHalf = () => (
       </hgroup>
       <a href="#" className="btn btn-link">Read Now</a>
     </div>
-  </div>
-)
+  </div> */
+);
 
-// class NavBar extends Component {
-//   render() {
-//     return (
-//       <nav className="navbar">
-//       <img src={logo} className="tg_logo" alt="logo" />
-//       <h1>Creative Space of UI Designer &amp; Developer, Troy Ginbey</h1>
-//       <ul>
-//         <li><a className="active" href="/">Blog</a></li>
-//         <li><a href="/#/about">About</a></li>
-//         <li><a href="/#/work">Work</a></li>
-//         <li><a href="/#/skills">Core Skills</a></li>
-//         <li><a href="/#/cv">Download CV</a></li>
-//         <li><a href="/#/contact">Contact</a></li>
-//       </ul>
-//     </nav>
-//     );
-//   }
-// }
+// ContentBoxWidthHalf.propTypes = {
+//   type: React.propTypes.string.isRequired
+// };
 
 export default ContentBoxWidthHalf;

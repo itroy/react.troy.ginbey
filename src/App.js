@@ -2,9 +2,15 @@ import React, { Component } from 'react';
 import { Router, Route, hashHistory } from 'react-router'
   //Link, IndexRoute, browserHistory } from 'react-router'
 import NavBar from './components/NavBar'
-import BlogItem from './components/BlogItem'
+import ContentBoxWidthHalf from './components/ContentBoxWidthHalf'
 
-const Home = () => <div className="items"><BlogItem/></div>
+const Home = () => (
+  <div className="items">
+    <ContentBoxWidthHalf colour="green"/>
+    <ContentBoxWidthHalf colour="purple"/>
+    <ContentBoxWidthHalf colour="blue"/>
+  </div>
+)
 const About = () => <h2>About</h2>
 const Work = () => <h2>Work</h2>
 const CoreSkills = () => <h2>Core Skills</h2>
