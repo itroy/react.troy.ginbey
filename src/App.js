@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { Router, Route, hashHistory } from 'react-router'
   //Link, IndexRoute, browserHistory } from 'react-router'
 import NavBar from './components/NavBar'
-import ContentBoxWidthHalf from './components/ContentBoxWidthHalf'
+import ContentBox from './components/ContentBox'
 
 const Home = () => (
   <div className="items">
-    <ContentBoxWidthHalf colour="green"/>
-    <ContentBoxWidthHalf colour="purple"/>
-    <ContentBoxWidthHalf colour="blue"/>
+    <ContentBox colour="green" size="half" justified="left"/>
+    <ContentBox colour="purple" size="quarter" justified="centered"/>
+    <ContentBox colour="blue" size="half" justified="left"/>
   </div>
 )
 const About = () => <h2>About</h2>
