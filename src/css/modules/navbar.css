@@ -6,10 +6,13 @@
   background-color: #342736;
   box-sizing: border-box;
   font-size: 12px;
-
 }
 .navbar.fixed_top {
   position: fixed;
+  top:0;
+}
+.navbar_fixed {
+  margin-top: 80px;
 }
 .navbar h1 {
   font-size: 10px;

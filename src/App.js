@@ -20,7 +20,7 @@ const Contact = () => <h2>Contact</h2>
 class App extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div className="wrapper navbar_fixed">
         <NavBar/>
         <Router history={hashHistory}>
           <Route path='/' component={Home} />
