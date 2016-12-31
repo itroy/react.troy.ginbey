@@ -20,16 +20,7 @@ body {
   font-family: sans-serif;
   background-color: #fff;
 }
-.navbar h1 {
-  font-size: 10px;
-  color: #F2F2F2;
-  letter-spacing: 0.75px;
-  text-transform: uppercase;
-  font-weight: 100;
-  float: left;
-  display: inline-block;
-  flex-grow: 1;
-}
+
 
 /* Layout */
 /* Layout rules divide the page into sections. Layouts hold one
@@ -67,52 +58,8 @@ body {
    or site its look and feel. Separating the theme out into
    its own set of styles allows for those styles to be easily
    redefined for alternate themes.*/
-.navbar {
-  display: flex;
 
-  align-items: center;
-  width: 100vw;
-  height: 80px;
-  background-color: #342736;
-  box-sizing: border-box;
-  font-size: 12px;
 
-}
-.navbar ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  min-width: 580px;
-}
-.navbar li {
-  float: left;
-  margin-right: 4px;
-}
-.navbar li a {
-  padding: 7px 14px 5px 14px;
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #f2f2f2;
-  letter-spacing: 1px;
-}
-.navbar li a:hover {
-  color: #fff;
-  background-color: #181219;
-  border-radius: 30px;
-}
-.navbar li a.active {
-  /*color: #fff;*/
-  background-color: #181219;
-  border-radius: 30px;
-}
-.tg_logo {
-  margin-left: 35px;
-  margin-right: 20px;
-}
 .btn {
   border-radius: 35px;
   padding: 14px 22px !important;
@@ -144,7 +91,7 @@ body {
 }
 .btn-download::after {
   font-family: 'FontAwesome';
-  content: '\f019';
+  content: '\f078';
   margin-left: 12px;
 }
 .btn-download:hover {

@@ -3,7 +3,7 @@
   align-items: center;
   width: 100vw;
   height: 80px;
-  background-color: #342736;
+  background-color: rgba(27,13,30,0.9);
   box-sizing: border-box;
   font-size: 12px;
 }
@@ -58,4 +58,39 @@
 .tg_logo {
   margin-left: 35px;
   margin-right: 20px;
+}
+
+/* Scrolled */
+
+.navbar.scrolled {
+  height: 40px;
+}
+.navbar.scrolled .tg_logo {
+  width: 30px;
+  height: 18px;
+  margin-left: 14px;
+  margin-right: 12px;
+}
+.navbar.scrolled h1 {
+  font-size: 9px;
+  letter-spacing: 1.25px;
+}
+.navbar.scrolled ul {
+  min-width: 0;
+}
+.navbar.scrolled li {
+  font-size: 10px;
+}
+.navbar.scrolled li a {
+  padding: 4px 11px;
+}
+.navbar.scrolled li a:hover {
+  background-color: #000;
+}
+.navbar.scrolled .btn-download {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.navbar.scrolled .btn.btn-download {
+  padding: 3px 12px 4px 12px !important;
 }

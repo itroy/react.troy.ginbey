@@ -3,7 +3,7 @@ import '../css/modules/navbar.css';
 import logo from '../img/tg_logo.svg';
 
 const NavBar = () => (
-  <nav className="navbar fixed_top">
+  <nav className="navbar fixed_top" id="navbar_fixed">
     <img src={logo} className="tg_logo" alt="logo" />
     <h1>Creative Space of UI Designer &amp; Developer, Troy Ginbey</h1>
     <ul>
